@@ -1,10 +1,10 @@
 # easychars
 
-Based on [saintfish/chardet](https://github.com/saintfish/chardet) and [golang.org/x/text/encoding/](golang.org/x/text/encoding/) , easychars makes it convient to detect the charsets and convert content to UTF-8 encoded.
+Based on [saintfish/chardet](https://github.com/saintfish/chardet) and [golang.org/x/text/encoding/](golang.org/x/text/encoding/) , easychars makes it convient to detect the charset and convert content to UTF-8 encoded.
 
-## Detect Support charset
+## Support charset
 
-- Unicode: UTF-8, UTF-16-LE, UTF-16-BE, UTF-32-LE, UTF-32-BE
+- Unicode: UTF-8, UTF-16LE, UTF-16BE, UTF-32LE, UTF-32BE
 
 - Simplified Chinese: GB2312, GBK, GB18030(include GB2312 and GBK)
 
@@ -14,9 +14,11 @@ Based on [saintfish/chardet](https://github.com/saintfish/chardet) and [golang.o
 
 - Korean: EUC-KR, ISO-2022-KR
 
+- Russian: 
+
 - Others: ISO-8859-1, ISO-8859-2, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-9, Windows-1250, Windows-1251, Windows-1254, Windows-1255, Windows-1256 ...
 
-for other charsets, try `easychars.ToUtf8WithCharsetName` to test whether it's supported
+For other charsets, try `easychars.ToUtf8WithCharsetName` to test whether it's supported
 
 ## Example
 
