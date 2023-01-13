@@ -1,4 +1,4 @@
-module github.com/HeapStackTree/easychars/tree/main
+module github.com/HeapStackTree/easychars
 
 go 1.19
 
